@@ -66,7 +66,7 @@ define(['config-loader'], function (ConfigLoader) {
          * @param {Function} write
          */
         write: function (pluginName, moduleName, write) {
-            write('define("' + pluginName + '!' + moduleName + '",["config-loader"],function(ConfigLoader){return (new ConfigLoader("#' + moduleName + '")).config;});');
+            write('define("' + pluginName + '!' + moduleName + '",["config-loader"],function(ConfigLoader){console.debug("Config loaded from #' + moduleName + '"); return (new ConfigLoader("#' + moduleName + '")).config;});');
         }
     };
 });
