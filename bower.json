@@ -11,5 +11,6 @@
         "tests"
     ],
     "dependencies": {
+        "config-loader": "1.*"
     }
 }
