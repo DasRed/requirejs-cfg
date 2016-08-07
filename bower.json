@@ -1,7 +1,7 @@
 {
     "name": "requirejs-cfg",
     "homepage": "https://github.com/DasRed/requirejs-cfg",
-    "main": "",
+    "main": "Enabled the config loader in require js as plugin.",
     "license": "MIT",
     "ignore": [
         "**/.*",
@@ -11,6 +11,6 @@
         "tests"
     ],
     "dependencies": {
-        "config-loader": "1.*"
+        "config-loader": "^1.0.0"
     }
 }
