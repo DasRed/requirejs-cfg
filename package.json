@@ -1,0 +1,16 @@
+{
+  "name": "requirejs-cfg",
+  "version": "1.0.6",
+  "description": "Enabled the config loader in require js as plugin.",
+  "main": "cfg.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DasRed/requirejs-cfg.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DasRed/requirejs-cfg/issues"
+  },
+  "homepage": "https://github.com/DasRed/requirejs-cfg#readme"
+}
