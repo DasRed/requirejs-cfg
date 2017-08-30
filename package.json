@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/DasRed/requirejs-cfg/issues"
   },
-  "homepage": "https://github.com/DasRed/requirejs-cfg#readme"
+  "homepage": "https://github.com/DasRed/requirejs-cfg#readme",
+  "dependencies": {
+      "js-config-loader": "^1.0.5"
+  }
 }
